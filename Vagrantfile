@@ -5,7 +5,7 @@ Vagrant.configure("2") do |config|
   config.vm.box = "bstoots/xubuntu-16.04-desktop-amd64"
   config.vm.network "forwarded_port",
                 guest: 6000,
-                host: 6001,
+                host: 6000,
                 host_ip: "127.0.0.1",
                 auto_correct: true
 
